@@ -51,15 +51,17 @@ public class BulletBehaviour : MonoBehaviour
             Gizmos.color = Color.magenta;
 
             Gizmos.DrawWireSphere(transform.position, radius);
-        }
+        }  
     }
 }
+
 
 // Todo: Created a Cube Bullet class
 public class CubeBulletBehaviour : BulletBehaviour
 {
     public Vector3 max;
     public Vector3 min;
+    
     public Vector3 size;
     private MeshFilter meshFilter;
     public Bounds bounds;

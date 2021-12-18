@@ -64,7 +64,7 @@ public class PlayerBehaviour : MonoBehaviour
             body.velocity = new Vector3(body.velocity.x, 0.0f, body.velocity.z); // remove y
 
             
-            // transform - Jump
+            // transform - Jump   
             if (Input.GetAxisRaw("Jump") > 0.0f)
             {
                 body.velocity = transform.up * speed * 0.1f * Time.deltaTime;

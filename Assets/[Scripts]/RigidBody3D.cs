@@ -36,6 +36,7 @@ public class RigidBody3D : MonoBehaviour
         {
             isFalling = true;
         }
+
     }
 
     // Update is called once per frame

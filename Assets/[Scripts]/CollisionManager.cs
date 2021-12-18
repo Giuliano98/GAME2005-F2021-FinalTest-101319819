@@ -128,7 +128,7 @@ public class CollisionManager : MonoBehaviour
         {
             // determine the distances between the contact extents
             float[] distances =
-            {
+            { 
                 (b.max.x - s.min.x),
                 (s.max.x - b.min.x),
                 (b.max.y - s.min.y),
@@ -325,6 +325,7 @@ public class CollisionManager : MonoBehaviour
                     a.gameObject.GetComponent<RigidBody3D>().isFalling = true;
                     a.isGrounded = false;
                 }
+
             }
         }
     }
