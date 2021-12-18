@@ -57,6 +57,7 @@ public class CollisionManager : MonoBehaviour
             }
         }
 
+        // todo: Check new Bullets collision
         foreach (var bullet in bullets)
         {
             foreach (var cube in cubes)
@@ -232,6 +233,7 @@ public class CollisionManager : MonoBehaviour
                 }
 
                 // Todo: add response with the other faces
+                // pushing
                 // --------------------------------------------
                 Vector3 minimunTranslationVectorAtoB;
                 Vector3 collisionNormalAtoB;
