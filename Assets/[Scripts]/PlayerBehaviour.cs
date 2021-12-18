@@ -36,6 +36,7 @@ public class PlayerBehaviour : MonoBehaviour
     {
         if (isGrounded)
         {
+            // Todo: Coudn't make it move in air
             // move right
             if (Input.GetAxisRaw("Horizontal") > 0.0f)
             {
