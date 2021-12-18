@@ -71,7 +71,7 @@ public class CubeBulletBehaviour : BulletBehaviour
 
         bounds = meshFilter.mesh.bounds;
         size = bounds.size;
-
+         
     }
     void Update()
     {
@@ -80,3 +80,4 @@ public class CubeBulletBehaviour : BulletBehaviour
 
     }
 }
+ 
