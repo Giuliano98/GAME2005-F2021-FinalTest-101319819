@@ -230,6 +230,7 @@ public class CollisionManager : MonoBehaviour
                     a.gameObject.GetComponent<RigidBody3D>().Stop();
                     a.isGrounded = true;
                 }
+
                 // Todo: add response with the other faces
                 // --------------------------------------------
                 Vector3 minimunTranslationVectorAtoB;
