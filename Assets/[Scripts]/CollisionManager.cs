@@ -118,7 +118,7 @@ public class CollisionManager : MonoBehaviour
         }
 
     }
-
+      
     // Todo: Created a bulletAABB check
     public static void CheckBulletAABB(CubeBulletBehaviour s, CubeBehaviour b)
     {
@@ -154,7 +154,7 @@ public class CollisionManager : MonoBehaviour
             s.penetration = penetration;
             s.collisionNormal = face;
 
-            Reflect(s);
+            Reflect(s);  
         }
        
     }
